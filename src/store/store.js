@@ -9,7 +9,7 @@ var initialState = {
     currentVideo: null
 }
 
-var store = createStore(rootReducer, initialState, applyMiddleware(thunk));
+var store = createStore(rootReducer, {videoList: exampleVideoData, currentVideo: exampleVideoData[0]}, applyMiddleware(thunk));
 // var configureStore = function() {
 //     return createStore(rootReducer, applyMiddleware(thunk));
 // }

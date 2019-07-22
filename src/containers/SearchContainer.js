@@ -14,10 +14,10 @@ import handleSearchChange from '../actions/search.js';
 //     };
 // };
 
-const mapDispatchToProps = (dispatch) => {
+var mapDispatchToProps = (dispatch) => {
 
   return {
-    handleSearchInputChange: (value) => dispatch(handleSearchChange(value))
+    handleSearchInputChange: (q) => {dispatch(handleSearchChange(q))}
   };
 
 };
