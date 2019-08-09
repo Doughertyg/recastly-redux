@@ -1,2 +1,2 @@
 # recastly-redux
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+A react video player app using Redux to manage state and the YouTube search api
